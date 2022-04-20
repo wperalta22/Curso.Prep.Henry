@@ -1,18 +1,59 @@
+body{
+  background-image: url(./imagenes/fondo\ pag\ web.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .divClass h1{
   color: brown;
 }
+
+.divClass h3, .divClass h4{
+  color: #fff;
+}
+
+.divClass a{
+  color: #fff;
+}
+
+.divClass{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 #thirdDiv img{
   width: 400px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 #thirdDiv {
   height: 600px; 
-  width: 500px; 
+  width: 500px;
+  margin: 0 auto;
   background-color: darkgoldenrod; 
   padding: 50px; 
   border: 5px solid black;
 }
+
+#thirdDiv ul{
+  padding: 0%;
+}
+
+#thirdDiv li{
+  list-style: none;
+}
+
 #spanId{
   font-size: 18px;
   margin: 50px;
+  color: #fff;
 }
       
